@@ -8,20 +8,11 @@
                 <form action="/" method="post">
                     <input name="city" type="text" class="ghost-input" placeholder="Enter a City" required>
                     <input type="submit" class="ghost-button" value="Get Weather">
-                    <input type="button" class="cel-button" value="C">
-                    <input type="button" class="far-button" value="F">
                 </form>
                 <% if(weather !== null){ %>
                     <p>
                         Temperature:
                         <%= weather %>
-                    </p>
-                    <p>Summary:
-                        <%= summary %>
-                        <br> Humidity:
-                        <%= humidity %>
-                        <br> Wind:
-                        <%= windSpeed %>
                     </p>
                     <% } %>
                         <% if(error !== null){ %>

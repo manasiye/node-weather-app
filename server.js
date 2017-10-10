@@ -10,9 +10,7 @@ const app = express()
 const port = process.env.PORT || 3000;
 
 const apiKey = '9622bd087b91ee40bfa70493acee217a';
-const index = require('./routes/index');
-const userRoutes = require('./routes/user');
-const authRoutes = require('./routes/auth');
+
 
 app.set('port', port);
 app.set('view engine', 'ejs')

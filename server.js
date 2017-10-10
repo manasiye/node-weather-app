@@ -9,7 +9,7 @@ const app = express()
 
 const port = process.env.PORT || 3000;
 
-const apiKey = '9622bd087b91ee40bfa70493acee217a';
+const apiKey = '****';
 
 
 app.set('port', port);
